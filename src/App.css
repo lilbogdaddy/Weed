@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+body {
+  background: lightgrey;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  height: 100vh;
+}
+.canvas{
+  height: 80vh
+}
+
+.buttons{
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 20vh;
+}
+
+.button{
+  /* align-self: flex-start; */
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  background: rgb(9,62,220);
+  background: linear-gradient(0deg, rgba(9,62,220,1) 80%, rgba(126,187,235,1) 100%);
+  border: none;
   color: white;
+  /* padding: 10px; */
+  border-radius: 10px;
+  /* border:7px solid rgba(9,62,220,1); */
+  outline:7px solid rgba(9,62,220,1);
+  box-sizing: border-box;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 0px 0px rgba(126,187,235,1);
+  transition: all 0.5s;
+}
+.button:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 10px rgba(126,187,235,1);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -72,7 +72,7 @@ body {
 @media only screen and (max-width: 500px) {
   .button{
     font-size: 30px;
-    width: 33vw;
-    height: 33vw;
+    width: 35px;
+    height: 35px;
   }
 }

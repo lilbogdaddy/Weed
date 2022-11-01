@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Weed/static/css/main.bcfe8fd4.css",
-    "main.js": "/Weed/static/js/main.0846a444.js",
+    "main.js": "/Weed/static/js/main.a9a72612.js",
     "index.html": "/Weed/index.html",
     "main.bcfe8fd4.css.map": "/Weed/static/css/main.bcfe8fd4.css.map",
-    "main.0846a444.js.map": "/Weed/static/js/main.0846a444.js.map"
+    "main.a9a72612.js.map": "/Weed/static/js/main.a9a72612.js.map"
   },
   "entrypoints": [
     "static/css/main.bcfe8fd4.css",
-    "static/js/main.0846a444.js"
+    "static/js/main.a9a72612.js"
   ]
 }

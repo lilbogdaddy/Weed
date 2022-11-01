@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/weed/static/css/main.c4303819.css",
-    "main.js": "/weed/static/js/main.a46987d4.js",
-    "index.html": "/weed/index.html",
-    "main.c4303819.css.map": "/weed/static/css/main.c4303819.css.map",
-    "main.a46987d4.js.map": "/weed/static/js/main.a46987d4.js.map"
+    "main.css": "/Weed/static/css/main.bcfe8fd4.css",
+    "main.js": "/Weed/static/js/main.6ff7ad8a.js",
+    "index.html": "/Weed/index.html",
+    "main.bcfe8fd4.css.map": "/Weed/static/css/main.bcfe8fd4.css.map",
+    "main.6ff7ad8a.js.map": "/Weed/static/js/main.6ff7ad8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4303819.css",
-    "static/js/main.a46987d4.js"
+    "static/css/main.bcfe8fd4.css",
+    "static/js/main.6ff7ad8a.js"
   ]
 }

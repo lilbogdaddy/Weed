@@ -69,3 +69,10 @@ body {
   box-shadow: 0px 0px 50px 10px rgba(126,187,235,1);
 }
 
+@media only screen and (max-width: 500px) {
+  .butotn{
+    font-size: 30px;
+    width: 33vh;
+    height: 33vh;
+  }
+}

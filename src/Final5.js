@@ -6,9 +6,9 @@ import React, { useRef } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { useFrame } from "@react-three/fiber";
 
-export default function Design1(props) {
+export default function Final5(props) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/design1.glb')
+  const { nodes, materials, animations } = useGLTF('/final5.glb')
   const { actions } = useAnimations(animations, group)
 
   useFrame(({ clock }) => {
@@ -20,12 +20,12 @@ export default function Design1(props) {
     <group ref={group} {...props} dispose={null}>
       <group name="Scene">
         <group name="Empty" position={[0, 7.22, 0]} rotation={[Math.PI / 2, 0, 0]} scale={32.79} />
-        <group name="Cylinder001" position={[2.93, 2.6, 0.36]} rotation={[1.34, 0, 1.57]} scale={0.43} />
-        <mesh name="Cylinder002" geometry={nodes.Cylinder002.geometry} material={materials['Material.001']} position={[1.53, 2.61, 0.35]} rotation={[1.34, 0, 1.57]} scale={0.43} />
-        <mesh name="Plane" geometry={nodes.Plane.geometry} material={materials['Material.004']} position={[2.98, 2.6, 0.36]} rotation={[0.82, 1.57, 2.09]} scale={[9.25, 0.44, 21.56]} />
+        <group name="Cylinder001" position={[3.52, 2.6, 0.36]} rotation={[1.34, 0, 1.57]} />
+        <mesh name="Cylinder002" geometry={nodes.Cylinder002.geometry} material={materials['Material.001']} position={[0.29, 2.61, 0.35]} rotation={[1.34, 0, 1.57]} />
+        <mesh name="Plane" geometry={nodes.Plane.geometry} material={materials['Material.004']} position={[3.64, 2.6, 0.36]} rotation={[0.82, 1.57, 2.09]} scale={[21.39, 1.02, 49.89]} />
       </group>
     </group>
   )
 }
 
-useGLTF.preload('/design1.glb')
+useGLTF.preload('/final5.glb')

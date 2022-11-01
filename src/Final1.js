@@ -8,7 +8,7 @@ import { useFrame } from "@react-three/fiber";
 
 export default function Final1(props) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/final1.glb')
+  const { nodes, materials, animations } = useGLTF('final1.glb')
   const { actions } = useAnimations(animations, group)
   
   useFrame(({ clock }) => {

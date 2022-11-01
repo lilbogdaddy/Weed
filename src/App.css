@@ -50,6 +50,7 @@ body {
   background: linear-gradient(0deg, rgba(9,62,220,1) 80%, rgba(126,187,235,1) 100%);
   border: none;
   color: white;
+  outline: none;
   /* padding: 10px; */
   border-radius: 10px;
   /* border:7px solid rgba(9,62,220,1); */
